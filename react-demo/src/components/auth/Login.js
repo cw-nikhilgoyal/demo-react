@@ -2,14 +2,11 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 
 const LoginSchema = Yup.object().shape({
-  email: Yup.string()
-    .email('Invalid email')
-    .matches(/@[^.]*\.(com|in)$/, 'Email must end with @xyz.com or @xyz.in')
-    .required('Required'),
+  username: Yup.string().required('Required'),
   password: Yup.string().required('Required'),
 });
 
@@ -21,11 +18,27 @@ const Login = () => {
   const handleSubmit = async (values) => {
     setLoading(true);
     try {
-      // API call would go here
-      localStorage.setItem('token', 'dummy-token');
+      const response = await fetch('https://fakestoreapi.com/auth/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          username: values.username,
+          password: values.password
+        })
+      });
+
+      if (!response.ok) {
+        throw new Error('Login failed');
+      }
+
+      const data = await response.json();
+      localStorage.setItem('token', data.token);
       navigate('/products');
     } catch (error) {
-      console.error(error);
+      console.error('Login error:', error);
+      alert('Login failed. Please check your credentials.');
     } finally {
       setLoading(false);
     }
@@ -36,7 +49,7 @@ const Login = () => {
       <FormCard>
         <h1>Login</h1>
         <Formik
-          initialValues={{ email: '', password: '' }}
+          initialValues={{ username: '', password: '' }}
           validationSchema={LoginSchema}
           onSubmit={handleSubmit}
         >
@@ -44,12 +57,12 @@ const Login = () => {
             <StyledForm>
               <FormGroup>
                 <Input
-                  {...getFieldProps('email')}
-                  placeholder="Email"
-                  type="email"
+                  {...getFieldProps('username')}
+                  placeholder="Username"
+                  type="text"
                 />
-                {errors.email && touched.email && (
-                  <ErrorMessage>{errors.email}</ErrorMessage>
+                {errors.username && touched.username && (
+                  <ErrorMessage>{errors.username}</ErrorMessage>
                 )}
               </FormGroup>
 
@@ -74,6 +87,9 @@ const Login = () => {
               <Button type="submit" disabled={loading}>
                 {loading ? 'Loading...' : 'Login'}
               </Button>
+              <SignUpLink to="/signup">
+                Don't have an account? Sign Up
+              </SignUpLink>
             </StyledForm>
           )}
         </Formik>
@@ -153,6 +169,17 @@ const Button = styled.button`
 const ErrorMessage = styled.span`
   color: red;
   font-size: 0.8rem;
+`;
+
+const SignUpLink = styled(Link)`
+  text-align: center;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 1rem;
+  
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
 export default Login;

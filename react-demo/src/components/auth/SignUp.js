@@ -21,6 +21,9 @@ const Step2Schema = Yup.object().shape({
   firstName: Yup.string().required('Required'),
   lastName: Yup.string().required('Required'),
   address: Yup.string().required('Required'),
+  city: Yup.string().required('Required'),
+  street: Yup.string().required('Required'),
+  zipcode: Yup.string().required('Required'),
 });
 
 const SignUp = () => {
@@ -37,10 +40,40 @@ const SignUp = () => {
 
     setLoading(true);
     try {
-      // API call would go here
+      const formattedData = {
+        email: values.email,
+        username: values.username,
+        password: values.password,
+        name: {
+          firstname: values.firstName,
+          lastname: values.lastName
+        },
+        address: {
+          city: values.city,
+          street: values.street,
+          address: values.address,
+          zipcode: values.zipcode,
+          geolocation: {
+            lat: '-37.3159',
+            long: '81.1496'
+          }
+        },
+        phone: values.phone
+      };
+
+      const response = await fetch('https://fakestoreapi.com/users', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formattedData)
+      });
+
+      const data = await response.json();
+      console.log('Success:', data);
       navigate('/login');
     } catch (error) {
-      console.error(error);
+      console.error('Error:', error);
     } finally {
       setLoading(false);
     }
@@ -59,6 +92,9 @@ const SignUp = () => {
             firstName: '',
             lastName: '',
             address: '',
+            city: '',
+            street: '',
+            zipcode: ''
           }}
           validationSchema={step === 1 ? Step1Schema : Step2Schema}
           onSubmit={handleSubmit}
@@ -145,6 +181,36 @@ const SignUp = () => {
                     />
                     {errors.address && touched.address && (
                       <ErrorMessage>{errors.address}</ErrorMessage>
+                    )}
+                  </FormGroup>
+
+                  <FormGroup>
+                    <Input
+                      {...getFieldProps('city')}
+                      placeholder="City"
+                    />
+                    {errors.city && touched.city && (
+                      <ErrorMessage>{errors.city}</ErrorMessage>
+                    )}
+                  </FormGroup>
+
+                  <FormGroup>
+                    <Input
+                      {...getFieldProps('street')}
+                      placeholder="Street"
+                    />
+                    {errors.street && touched.street && (
+                      <ErrorMessage>{errors.street}</ErrorMessage>
+                    )}
+                  </FormGroup>
+
+                  <FormGroup>
+                    <Input
+                      {...getFieldProps('zipcode')}
+                      placeholder="Zip Code"
+                    />
+                    {errors.zipcode && touched.zipcode && (
+                      <ErrorMessage>{errors.zipcode}</ErrorMessage>
                     )}
                   </FormGroup>
                 </>
