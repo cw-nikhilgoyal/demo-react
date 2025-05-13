@@ -14,7 +14,7 @@ import {
   Toolbar,
   useTheme,
 } from '@mui/material';
-import { LocationOn, Event, GridView, ViewList, ArrowForward } from '@mui/icons-material';
+import { LocationOn, Event, GridView, ViewList, ArrowForward, Add } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import productsData from '../../data/products.json';
 
@@ -95,69 +95,90 @@ const Products = () => {
           >
             <Box sx={{ 
               display: 'flex', 
-              gap: 1,
-              flexWrap: 'wrap',
-              justifyContent: 'center'
+              width: '100%',
+              justifyContent: 'space-between',
+              alignItems: 'center'
             }}>
-              {categories.map((category) => (
-                <Button
-                  key={category}
-                  onClick={() => handleCategoryFilter(category)}
-                  sx={{
-                    px: 3,
-                    py: 1,
-                    color: selectedCategory === category ? theme.palette.primary.main : '#666',
-                    position: 'relative',
-                    fontWeight: selectedCategory === category ? 600 : 400,
-                    background: selectedCategory === category ? 'rgba(25, 118, 210, 0.08)' : 'transparent',
-                    borderRadius: 2,
-                    transition: 'all 0.3s ease',
-                    '&:hover': {
-                      background: 'rgba(25, 118, 210, 0.12)',
-                      transform: 'translateY(-2px)'
-                    },
-                    '&::after': selectedCategory === category ? {
-                      content: '""',
-                      position: 'absolute',
-                      bottom: 0,
-                      left: '20%',
-                      width: '60%',
-                      height: '2px',
-                      background: theme.palette.primary.main,
-                      borderRadius: '2px'
-                    } : {}
-                  }}
-                >
-                  <Typography
-                    variant="button"
+              <Box sx={{ 
+                display: 'flex', 
+                gap: 1,
+                flexWrap: 'wrap',
+                justifyContent: 'center'
+              }}>
+                {categories.map((category) => (
+                  <Button
+                    key={category}
+                    onClick={() => handleCategoryFilter(category)}
                     sx={{
-                      background: selectedCategory === category 
-                        ? 'linear-gradient(45deg, #1976d2, #2196f3)'
-                        : 'none',
-                      WebkitBackgroundClip: selectedCategory === category ? 'text' : 'none',
-                      WebkitTextFillColor: selectedCategory === category ? 'transparent' : 'inherit',
-                      fontWeight: 'inherit'
+                      px: 3,
+                      py: 1,
+                      color: selectedCategory === category ? theme.palette.primary.main : '#666',
+                      position: 'relative',
+                      fontWeight: selectedCategory === category ? 600 : 400,
+                      background: selectedCategory === category ? 'rgba(25, 118, 210, 0.08)' : 'transparent',
+                      borderRadius: 2,
+                      transition: 'all 0.3s ease',
+                      '&:hover': {
+                        background: 'rgba(25, 118, 210, 0.12)',
+                        transform: 'translateY(-2px)'
+                      },
+                      '&::after': selectedCategory === category ? {
+                        content: '""',
+                        position: 'absolute',
+                        bottom: 0,
+                        left: '20%',
+                        width: '60%',
+                        height: '2px',
+                        background: theme.palette.primary.main,
+                        borderRadius: '2px'
+                      } : {}
                     }}
                   >
-                    {category}
-                  </Typography>
+                    <Typography
+                      variant="button"
+                      sx={{
+                        background: selectedCategory === category 
+                          ? 'linear-gradient(45deg, #1976d2, #2196f3)'
+                          : 'none',
+                        WebkitBackgroundClip: selectedCategory === category ? 'text' : 'none',
+                        WebkitTextFillColor: selectedCategory === category ? 'transparent' : 'inherit',
+                        fontWeight: 'inherit'
+                      }}
+                    >
+                      {category}
+                    </Typography>
+                  </Button>
+                ))}
+              </Box>
+              
+              <Box sx={{ display: 'flex', gap: 2 }}>
+                <Button
+                  variant="contained"
+                  startIcon={<Add />}
+                  onClick={() => navigate('/create-event')}
+                  sx={{
+                    borderRadius: 2,
+                    textTransform: 'none',
+                    mr: 2
+                  }}
+                >
+                  Create Event
                 </Button>
-              ))}
+                <IconButton 
+                  onClick={() => setIsGridView(!isGridView)} 
+                  sx={{
+                    background: 'rgba(25, 118, 210, 0.08)',
+                    transition: 'all 0.3s ease',
+                    '&:hover': {
+                      background: 'rgba(25, 118, 210, 0.15)',
+                      transform: 'rotate(180deg)'
+                    }
+                  }}
+                >
+                  {isGridView ? <ViewList /> : <GridView />}
+                </IconButton>
+              </Box>
             </Box>
-            
-            <IconButton 
-              onClick={() => setIsGridView(!isGridView)} 
-              sx={{
-                background: 'rgba(25, 118, 210, 0.08)',
-                transition: 'all 0.3s ease',
-                '&:hover': {
-                  background: 'rgba(25, 118, 210, 0.15)',
-                  transform: 'rotate(180deg)'
-                }
-              }}
-            >
-              {isGridView ? <ViewList /> : <GridView />}
-            </IconButton>
           </Toolbar>
         </AppBar>
 

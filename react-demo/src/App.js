@@ -4,7 +4,7 @@ import Login from './components/auth/Login';
 import SignUp from './components/auth/SignUp';
 import Products from './components/products/Products';
 import { GlobalStyle } from './styles/GlobalStyles';
-import EventDetails from './components/events/EventDetails';
+import CreateEvent from './components/events/CreateEvent';
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/products" element={<Products />} />
-        <Route path="/event/:id" element={<EventDetails />} />
+        <Route path="/create-event" element={<CreateEvent />} />
         <Route path="/" element={<Navigate to="/login" replace />} />
       </Routes>
     </>
