@@ -1,0 +1,274 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Boots and Hearts 2016",
+      "date": "2024-08-01T20:00:00",
+      "location": "City 1",
+      "category": "Festival",
+      "price": 51,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
+    },
+    {
+      "id": 2,
+      "title": "BottleRock Napa Valley",
+      "date": "2024-08-02T20:00:00",
+      "location": "City 2",
+      "category": "Festival",
+      "price": 52,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
+    },
+    {
+      "id": 3,
+      "title": "Summer Beats Festival",
+      "date": "2024-08-03T20:00:00",
+      "location": "City 3",
+      "category": "Festival",
+      "price": 53,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
+    },
+    {
+      "id": 4,
+      "title": "Electric Daisy Carnival",
+      "date": "2024-08-04T20:00:00",
+      "location": "City 4",
+      "category": "Festival",
+      "price": 54,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
+    },
+    {
+      "id": 5,
+      "title": "Sunset Music Fest",
+      "date": "2024-08-05T20:00:00",
+      "location": "City 5",
+      "category": "Festival",
+      "price": 55,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
+    },
+    {
+      "id": 6,
+      "title": "Firefly Festival",
+      "date": "2024-08-06T20:00:00",
+      "location": "City 6",
+      "category": "Festival",
+      "price": 56,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
+    },
+    {
+      "id": 7,
+      "title": "Winter Jam Tour",
+      "date": "2024-08-07T20:00:00",
+      "location": "City 7",
+      "category": "Festival",
+      "price": 57,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
+    },
+    {
+      "id": 8,
+      "title": "SoulFest",
+      "date": "2024-08-08T20:00:00",
+      "location": "City 8",
+      "category": "Festival",
+      "price": 58,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
+    },
+    {
+      "id": 9,
+      "title": "Desert Daze",
+      "date": "2024-08-09T20:00:00",
+      "location": "City 9",
+      "category": "Festival",
+      "price": 59,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
+    },
+    {
+      "id": 10,
+      "title": "Global Groove",
+      "date": "2024-08-10T20:00:00",
+      "location": "City 10",
+      "category": "Festival",
+      "price": 60,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
+    },
+    {
+      "id": 11,
+      "title": "Tech World 2024",
+      "date": "2024-09-01T09:00:00",
+      "location": "City 11",
+      "category": "Conference",
+      "price": 101,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
+    },
+    {
+      "id": 12,
+      "title": "AI & Future Summit",
+      "date": "2024-09-02T09:00:00",
+      "location": "City 12",
+      "category": "Conference",
+      "price": 102,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
+    },
+    {
+      "id": 13,
+      "title": "Blockchain Conf 2024",
+      "date": "2024-09-03T09:00:00",
+      "location": "City 13",
+      "category": "Conference",
+      "price": 103,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
+    },
+    {
+      "id": 14,
+      "title": "Design Matters",
+      "date": "2024-09-04T09:00:00",
+      "location": "City 14",
+      "category": "Conference",
+      "price": 104,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
+    },
+    {
+      "id": 15,
+      "title": "Startup Grind Global",
+      "date": "2024-09-05T09:00:00",
+      "location": "City 15",
+      "category": "Conference",
+      "price": 105,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
+    },
+    {
+      "id": 16,
+      "title": "Web Dev Conference",
+      "date": "2024-09-06T09:00:00",
+      "location": "City 16",
+      "category": "Conference",
+      "price": 106,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
+    },
+    {
+      "id": 17,
+      "title": "Cloud Connect",
+      "date": "2024-09-07T09:00:00",
+      "location": "City 17",
+      "category": "Conference",
+      "price": 107,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
+    },
+    {
+      "id": 18,
+      "title": "CyberSec World",
+      "date": "2024-09-08T09:00:00",
+      "location": "City 18",
+      "category": "Conference",
+      "price": 108,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
+    },
+    {
+      "id": 19,
+      "title": "Open Source Days",
+      "date": "2024-09-09T09:00:00",
+      "location": "City 19",
+      "category": "Conference",
+      "price": 109,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
+    },
+    {
+      "id": 20,
+      "title": "GreenTech Innovation",
+      "date": "2024-09-10T09:00:00",
+      "location": "City 20",
+      "category": "Conference",
+      "price": 110,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
+    },
+    {
+      "id": 21,
+      "title": "Kids Carnival Fun",
+      "date": "2024-10-01T10:00:00",
+      "location": "City 21",
+      "category": "Playground",
+      "price": 41,
+      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 22,
+      "title": "Backyard Science Fair",
+      "date": "2024-10-02T10:00:00",
+      "location": "City 22",
+      "category": "Playground",
+      "price": 42,
+      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 23,
+      "title": "Art in the Park",
+      "date": "2024-10-03T10:00:00",
+      "location": "City 23",
+      "category": "Playground",
+      "price": 43,
+      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 24,
+      "title": "Lego Building Challenge",
+      "date": "2024-10-04T10:00:00",
+      "location": "City 24",
+      "category": "Playground",
+      "price": 44,
+      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 25,
+      "title": "Storytelling Circle",
+      "date": "2024-10-05T10:00:00",
+      "location": "City 25",
+      "category": "Playground",
+      "price": 45,
+      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 26,
+      "title": "Junior Robotics Day",
+      "date": "2024-10-06T10:00:00",
+      "location": "City 26",
+      "category": "Playground",
+      "price": 46,
+      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 27,
+      "title": "Mini Sports League",
+      "date": "2024-10-07T10:00:00",
+      "location": "City 27",
+      "category": "Playground",
+      "price": 47,
+      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 28,
+      "title": "Petting Zoo Day",
+      "date": "2024-10-08T10:00:00",
+      "location": "City 28",
+      "category": "Playground",
+      "price": 48,
+      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 29,
+      "title": "Outdoor Puzzle Quest",
+      "date": "2024-10-09T10:00:00",
+      "location": "City 29",
+      "category": "Playground",
+      "price": 49,
+      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 30,
+      "title": "Junior Gardening Workshop",
+      "date": "2024-10-10T10:00:00",
+      "location": "City 30",
+      "category": "Playground",
+      "price": 50,
+      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  ]
+}
