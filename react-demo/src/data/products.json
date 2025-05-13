@@ -1,274 +1,304 @@
 {
-  "products": [
-    {
-      "id": 1,
-      "title": "Boots and Hearts 2016",
-      "date": "2024-08-01T20:00:00",
-      "location": "City 1",
-      "category": "Festival",
-      "price": 51,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
-    },
-    {
-      "id": 2,
-      "title": "BottleRock Napa Valley",
-      "date": "2024-08-02T20:00:00",
-      "location": "City 2",
-      "category": "Festival",
-      "price": 52,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
-    },
-    {
-      "id": 3,
-      "title": "Summer Beats Festival",
-      "date": "2024-08-03T20:00:00",
-      "location": "City 3",
-      "category": "Festival",
-      "price": 53,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
-    },
-    {
-      "id": 4,
-      "title": "Electric Daisy Carnival",
-      "date": "2024-08-04T20:00:00",
-      "location": "City 4",
-      "category": "Festival",
-      "price": 54,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
-    },
-    {
-      "id": 5,
-      "title": "Sunset Music Fest",
-      "date": "2024-08-05T20:00:00",
-      "location": "City 5",
-      "category": "Festival",
-      "price": 55,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
-    },
-    {
-      "id": 6,
-      "title": "Firefly Festival",
-      "date": "2024-08-06T20:00:00",
-      "location": "City 6",
-      "category": "Festival",
-      "price": 56,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
-    },
-    {
-      "id": 7,
-      "title": "Winter Jam Tour",
-      "date": "2024-08-07T20:00:00",
-      "location": "City 7",
-      "category": "Festival",
-      "price": 57,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
-    },
-    {
-      "id": 8,
-      "title": "SoulFest",
-      "date": "2024-08-08T20:00:00",
-      "location": "City 8",
-      "category": "Festival",
-      "price": 58,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
-    },
-    {
-      "id": 9,
-      "title": "Desert Daze",
-      "date": "2024-08-09T20:00:00",
-      "location": "City 9",
-      "category": "Festival",
-      "price": 59,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
-    },
-    {
-      "id": 10,
-      "title": "Global Groove",
-      "date": "2024-08-10T20:00:00",
-      "location": "City 10",
-      "category": "Festival",
-      "price": 60,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s"
-    },
-    {
-      "id": 11,
-      "title": "Tech World 2024",
-      "date": "2024-09-01T09:00:00",
-      "location": "City 11",
-      "category": "Conference",
-      "price": 101,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
-    },
-    {
-      "id": 12,
-      "title": "AI & Future Summit",
-      "date": "2024-09-02T09:00:00",
-      "location": "City 12",
-      "category": "Conference",
-      "price": 102,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
-    },
-    {
-      "id": 13,
-      "title": "Blockchain Conf 2024",
-      "date": "2024-09-03T09:00:00",
-      "location": "City 13",
-      "category": "Conference",
-      "price": 103,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
-    },
-    {
-      "id": 14,
-      "title": "Design Matters",
-      "date": "2024-09-04T09:00:00",
-      "location": "City 14",
-      "category": "Conference",
-      "price": 104,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
-    },
-    {
-      "id": 15,
-      "title": "Startup Grind Global",
-      "date": "2024-09-05T09:00:00",
-      "location": "City 15",
-      "category": "Conference",
-      "price": 105,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
-    },
-    {
-      "id": 16,
-      "title": "Web Dev Conference",
-      "date": "2024-09-06T09:00:00",
-      "location": "City 16",
-      "category": "Conference",
-      "price": 106,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
-    },
-    {
-      "id": 17,
-      "title": "Cloud Connect",
-      "date": "2024-09-07T09:00:00",
-      "location": "City 17",
-      "category": "Conference",
-      "price": 107,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
-    },
-    {
-      "id": 18,
-      "title": "CyberSec World",
-      "date": "2024-09-08T09:00:00",
-      "location": "City 18",
-      "category": "Conference",
-      "price": 108,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
-    },
-    {
-      "id": 19,
-      "title": "Open Source Days",
-      "date": "2024-09-09T09:00:00",
-      "location": "City 19",
-      "category": "Conference",
-      "price": 109,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
-    },
-    {
-      "id": 20,
-      "title": "GreenTech Innovation",
-      "date": "2024-09-10T09:00:00",
-      "location": "City 20",
-      "category": "Conference",
-      "price": 110,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4"
-    },
-    {
-      "id": 21,
-      "title": "Kids Carnival Fun",
-      "date": "2024-10-01T10:00:00",
-      "location": "City 21",
-      "category": "Playground",
-      "price": 41,
-      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 22,
-      "title": "Backyard Science Fair",
-      "date": "2024-10-02T10:00:00",
-      "location": "City 22",
-      "category": "Playground",
-      "price": 42,
-      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 23,
-      "title": "Art in the Park",
-      "date": "2024-10-03T10:00:00",
-      "location": "City 23",
-      "category": "Playground",
-      "price": 43,
-      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 24,
-      "title": "Lego Building Challenge",
-      "date": "2024-10-04T10:00:00",
-      "location": "City 24",
-      "category": "Playground",
-      "price": 44,
-      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 25,
-      "title": "Storytelling Circle",
-      "date": "2024-10-05T10:00:00",
-      "location": "City 25",
-      "category": "Playground",
-      "price": 45,
-      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 26,
-      "title": "Junior Robotics Day",
-      "date": "2024-10-06T10:00:00",
-      "location": "City 26",
-      "category": "Playground",
-      "price": 46,
-      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 27,
-      "title": "Mini Sports League",
-      "date": "2024-10-07T10:00:00",
-      "location": "City 27",
-      "category": "Playground",
-      "price": 47,
-      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 28,
-      "title": "Petting Zoo Day",
-      "date": "2024-10-08T10:00:00",
-      "location": "City 28",
-      "category": "Playground",
-      "price": 48,
-      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 29,
-      "title": "Outdoor Puzzle Quest",
-      "date": "2024-10-09T10:00:00",
-      "location": "City 29",
-      "category": "Playground",
-      "price": 49,
-      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 30,
-      "title": "Junior Gardening Workshop",
-      "date": "2024-10-10T10:00:00",
-      "location": "City 30",
-      "category": "Playground",
-      "price": 50,
-      "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600"
-    }
-  ]
-}
+    "products": [
+      {
+        "id": 1,
+        "title": "Boots and Hearts 2016",
+        "date": "2024-08-01T20:00:00",
+        "location": "Mumbai, Maharashtra",
+        "category": "Festival",
+        "price": 51,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s",
+        "description": "A vibrant country music festival featuring top international and Indian artists, bringing together music lovers for a weekend of unforgettable performances under the stars."
+      },
+      {
+        "id": 2,
+        "title": "BottleRock Napa Valley",
+        "date": "2024-08-02T20:00:00",
+        "location": "Bengaluru, Karnataka",
+        "category": "Festival",
+        "price": 52,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s",
+        "description": "An eclectic mix of rock, indie, and electronic music paired with gourmet food and fine wines in India's tech capital's premier outdoor venue."
+      },
+      {
+        "id": 3,
+        "title": "Summer Beats Festival",
+        "date": "2024-08-03T20:00:00",
+        "location": "Goa",
+        "category": "Festival",
+        "price": 53,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s",
+        "description": "Three days of non-stop electronic dance music on Goa's famous beaches, featuring world-class DJs and breathtaking sunset parties."
+      },
+      {
+        "id": 4,
+        "title": "Electric Daisy Carnival",
+        "date": "2024-08-04T20:00:00",
+        "location": "Delhi",
+        "category": "Festival",
+        "price": 54,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s",
+        "description": "India's largest EDM festival transforms Delhi into a neon wonderland with massive stages, carnival rides, and immersive art installations."
+      },
+      {
+        "id": 5,
+        "title": "Sunset Music Fest",
+        "date": "2024-08-05T20:00:00",
+        "location": "Hyderabad, Telangana",
+        "category": "Festival",
+        "price": 55,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s",
+        "description": "An intimate festival celebrating diverse musical genres against the backdrop of Hyderabad's iconic monuments as the sun sets."
+      },
+      {
+        "id": 6,
+        "title": "Firefly Festival",
+        "date": "2024-08-06T20:00:00",
+        "location": "Pune, Maharashtra",
+        "category": "Festival",
+        "price": 56,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s",
+        "description": "A magical camping festival in the Western Ghats featuring indie bands, bonfire jams, and nature activities under a sky full of stars."
+      },
+      {
+        "id": 7,
+        "title": "Winter Jam Tour",
+        "date": "2024-08-07T20:00:00",
+        "location": "Chennai, Tamil Nadu",
+        "category": "Festival",
+        "price": 57,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s",
+        "description": "South India's premier winter music festival showcasing a blend of classical fusion and contemporary artists on Chennai's scenic beaches."
+      },
+      {
+        "id": 8,
+        "title": "SoulFest",
+        "date": "2024-08-08T20:00:00",
+        "location": "Kolkata, West Bengal",
+        "category": "Festival",
+        "price": 58,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s",
+        "description": "A celebration of soul, jazz, and blues in the cultural capital of India, featuring legendary musicians and emerging talents."
+      },
+      {
+        "id": 9,
+        "title": "Desert Daze",
+        "date": "2024-08-09T20:00:00",
+        "location": "Jaisalmer, Rajasthan",
+        "category": "Festival",
+        "price": 59,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s",
+        "description": "An unforgettable musical experience in the golden Thar Desert, combining folk traditions with psychedelic rock under moonlit dunes."
+      },
+      {
+        "id": 10,
+        "title": "Global Groove",
+        "date": "2024-08-10T20:00:00",
+        "location": "Shillong, Meghalaya",
+        "category": "Festival",
+        "price": 60,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuwaQHMxnWcBj9I928tV9Y4enyG7nkjI0GQ&s",
+        "description": "Northeast India's premier world music festival celebrating indigenous sounds alongside global rhythms in the picturesque Khasi Hills."
+      },
+      {
+        "id": 11,
+        "title": "Tech World 2024",
+        "date": "2024-09-01T09:00:00",
+        "location": "Bengaluru, Karnataka",
+        "category": "Conference",
+        "price": 101,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4",
+        "description": "India's largest tech conference showcasing cutting-edge innovations, with keynote speakers from global tech giants and startup disruptors."
+      },
+      {
+        "id": 12,
+        "title": "AI & Future Summit",
+        "date": "2024-09-02T09:00:00",
+        "location": "Hyderabad, Telangana",
+        "category": "Conference",
+        "price": 102,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4",
+        "description": "Exploring the frontiers of artificial intelligence with leading researchers and industry pioneers shaping India's technological future."
+      },
+      {
+        "id": 13,
+        "title": "Blockchain Conf 2024",
+        "date": "2024-09-03T09:00:00",
+        "location": "Mumbai, Maharashtra",
+        "category": "Conference",
+        "price": 103,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4",
+        "description": "The definitive conference on blockchain technology, cryptocurrency trends, and decentralized finance in India's financial capital."
+      },
+      {
+        "id": 14,
+        "title": "Design Matters",
+        "date": "2024-09-04T09:00:00",
+        "location": "Ahmedabad, Gujarat",
+        "category": "Conference",
+        "price": 104,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4",
+        "description": "A gathering of India's most creative minds in UX, product design, and visual communication, hosted at the country's design capital."
+      },
+      {
+        "id": 15,
+        "title": "Startup Grind Global",
+        "date": "2024-09-05T09:00:00",
+        "location": "Gurugram, Haryana",
+        "category": "Conference",
+        "price": 105,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4",
+        "description": "Connecting India's most promising startups with investors and mentors in the heart of the Delhi-NCR startup ecosystem."
+      },
+      {
+        "id": 16,
+        "title": "Web Dev Conference",
+        "date": "2024-09-06T09:00:00",
+        "location": "Pune, Maharashtra",
+        "category": "Conference",
+        "price": 106,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4",
+        "description": "Hands-on workshops and sessions on the latest web technologies, frameworks, and best practices for modern developers."
+      },
+      {
+        "id": 17,
+        "title": "Cloud Connect",
+        "date": "2024-09-07T09:00:00",
+        "location": "Chennai, Tamil Nadu",
+        "category": "Conference",
+        "price": 107,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4",
+        "description": "South India's premier cloud computing event featuring case studies from enterprises successfully transitioning to cloud infrastructure."
+      },
+      {
+        "id": 18,
+        "title": "CyberSec World",
+        "date": "2024-09-08T09:00:00",
+        "location": "Noida, Uttar Pradesh",
+        "category": "Conference",
+        "price": 108,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4",
+        "description": "Critical discussions on cybersecurity threats, defense strategies, and policy frameworks with India's top security experts."
+      },
+      {
+        "id": 19,
+        "title": "Open Source Days",
+        "date": "2024-09-09T09:00:00",
+        "location": "Kochi, Kerala",
+        "category": "Conference",
+        "price": 109,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4",
+        "description": "Celebrating India's vibrant open-source community with coding sprints, project showcases, and collaborative development sessions."
+      },
+      {
+        "id": 20,
+        "title": "GreenTech Innovation",
+        "date": "2024-09-10T09:00:00",
+        "location": "Chandigarh",
+        "category": "Conference",
+        "price": 110,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoh6VAyD7Ktardcz4Gzw5cn4yzeyn0ykaffSoujPImzwbDzLiJH9FQ0srtYCB4D2g5Ph4",
+        "description": "Showcasing sustainable technology solutions for urban development in India's first planned eco-friendly city."
+      },
+      {
+        "id": 21,
+        "title": "Kids Carnival Fun",
+        "date": "2024-10-01T10:00:00",
+        "location": "Jaipur, Rajasthan",
+        "category": "Playground",
+        "price": 41,
+        "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "description": "A colorful carnival with rides, games, and creative workshops designed to spark joy and imagination in children of all ages."
+      },
+      {
+        "id": 22,
+        "title": "Backyard Science Fair",
+        "date": "2024-10-02T10:00:00",
+        "location": "Lucknow, Uttar Pradesh",
+        "category": "Playground",
+        "price": 42,
+        "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "description": "Interactive science experiments and DIY projects that make learning fun for curious young minds in a safe outdoor environment."
+      },
+      {
+        "id": 23,
+        "title": "Art in the Park",
+        "date": "2024-10-03T10:00:00",
+        "location": "Bhopal, Madhya Pradesh",
+        "category": "Playground",
+        "price": 43,
+        "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "description": "Children explore various art mediums through guided activities in beautiful park settings, fostering creativity and nature appreciation."
+      },
+      {
+        "id": 24,
+        "title": "Lego Building Challenge",
+        "date": "2024-10-04T10:00:00",
+        "location": "Nagpur, Maharashtra",
+        "category": "Playground",
+        "price": 44,
+        "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "description": "Team-based Lego competitions where kids solve engineering challenges and build imaginative structures with thousands of bricks."
+      },
+      {
+        "id": 25,
+        "title": "Storytelling Circle",
+        "date": "2024-10-05T10:00:00",
+        "location": "Patna, Bihar",
+        "category": "Playground",
+        "price": 45,
+        "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "description": "Professional storytellers bring folktales and modern stories to life through interactive performances and creative dramatics."
+      },
+      {
+        "id": 26,
+        "title": "Junior Robotics Day",
+        "date": "2024-10-06T10:00:00",
+        "location": "Visakhapatnam, Andhra Pradesh",
+        "category": "Playground",
+        "price": 46,
+        "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "description": "Hands-on robotics workshops where children build and program simple robots while learning basic engineering concepts."
+      },
+      {
+        "id": 27,
+        "title": "Mini Sports League",
+        "date": "2024-10-07T10:00:00",
+        "location": "Indore, Madhya Pradesh",
+        "category": "Playground",
+        "price": 47,
+        "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "description": "Friendly sports tournaments introducing kids to various games while emphasizing teamwork, fair play, and healthy competition."
+      },
+      {
+        "id": 28,
+        "title": "Petting Zoo Day",
+        "date": "2024-10-08T10:00:00",
+        "location": "Thiruvananthapuram, Kerala",
+        "category": "Playground",
+        "price": 48,
+        "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "description": "Children interact with friendly farm animals while learning about animal care and biodiversity in a safe, supervised environment."
+      },
+      {
+        "id": 29,
+        "title": "Outdoor Puzzle Quest",
+        "date": "2024-10-09T10:00:00",
+        "location": "Guwahati, Assam",
+        "category": "Playground",
+        "price": 49,
+        "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "description": "An exciting treasure hunt with physical and mental challenges that encourage problem-solving and teamwork in beautiful outdoor settings."
+      },
+      {
+        "id": 30,
+        "title": "Junior Gardening Workshop",
+        "date": "2024-10-10T10:00:00",
+        "location": "Dehradun, Uttarakhand",
+        "category": "Playground",
+        "price": 50,
+        "image": "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "description": "Kids get their hands dirty while learning to plant seeds, care for plants, and understand ecosystems in this nature-immersion program."
+      }
+    ]
+  }

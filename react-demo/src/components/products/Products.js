@@ -15,6 +15,7 @@ import {
   useTheme,
 } from '@mui/material';
 import { LocationOn, Event, GridView, ViewList, ArrowForward } from '@mui/icons-material';
+import { useNavigate } from 'react-router-dom';
 import productsData from '../../data/products.json';
 
 const Products = () => {
@@ -23,6 +24,7 @@ const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [isGridView, setIsGridView] = useState(true);
   const theme = useTheme();
+  const navigate = useNavigate();
 
   const categories = ['All', 'Festival', 'Conference', 'Playground'];
 
@@ -40,6 +42,10 @@ const Products = () => {
       const filtered = events.filter(event => event.category === category);
       setFilteredEvents(filtered);
     }
+  };
+
+  const handleEventClick = (eventId) => {
+    navigate(`/event/${eventId}`);
   };
 
   const formatDate = (dateString) => {
@@ -227,6 +233,7 @@ const Products = () => {
                         variant="contained"
                         size="small"
                         endIcon={<ArrowForward />}
+                        onClick={() => handleEventClick(event.id)}
                         sx={{
                           borderRadius: 2,
                           textTransform: 'none'
@@ -288,6 +295,7 @@ const Products = () => {
                           variant="contained"
                           size="small"
                           endIcon={<ArrowForward />}
+                          onClick={() => handleEventClick(event.id)}
                           sx={{
                             borderRadius: 2,
                             textTransform: 'none'
