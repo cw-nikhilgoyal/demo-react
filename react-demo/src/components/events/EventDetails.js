@@ -20,8 +20,22 @@ const EventDetails = () => {
   const navigate = useNavigate();
   const event = productsData.products.find(p => p.id === parseInt(id));
 
+  // Add error handling for invalid event
   if (!event) {
-    return <Typography>Event not found</Typography>;
+    return (
+      <Container sx={{ py: 4, textAlign: 'center' }}>
+        <Typography variant="h5" color="error" gutterBottom>
+          Event not found
+        </Typography>
+        <Button
+          variant="contained"
+          onClick={() => navigate('/products')}
+          sx={{ mt: 2 }}
+        >
+          Back to Events
+        </Button>
+      </Container>
+    );
   }
 
   const formatDate = (dateString) => {
