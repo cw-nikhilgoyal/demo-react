@@ -14,7 +14,7 @@ import {
   Toolbar,
   useTheme,
 } from '@mui/material';
-import { LocationOn, Event, GridView, ViewList, ArrowForward, Add } from '@mui/icons-material';
+import { LocationOn, Event, GridView, ViewList, ArrowForward, Add, BarChart } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import productsData from '../../data/products.json';
 
@@ -152,6 +152,18 @@ const Products = () => {
               </Box>
               
               <Box sx={{ display: 'flex', gap: 2 }}>
+                <Button
+                  variant="contained"
+                  startIcon={<BarChart />}
+                  onClick={() => navigate('/event-stats')}
+                  sx={{
+                    borderRadius: 2,
+                    textTransform: 'none',
+                    mr: 2
+                  }}
+                >
+                  Event Stats
+                </Button>
                 <Button
                   variant="contained"
                   startIcon={<Add />}

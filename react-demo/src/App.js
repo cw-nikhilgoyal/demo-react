@@ -6,6 +6,7 @@ import Products from './components/products/Products';
 import { GlobalStyle } from './styles/GlobalStyles';
 import CreateEvent from './components/events/CreateEvent';
 import EventDetails from './components/events/EventDetails';
+import EventStats from './components/EventStats/EventStats';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/products" element={<Products />} />
         <Route path="/create-event" element={<CreateEvent />} />
         <Route path="/event/:id" element={<EventDetails />} />
+        <Route path="/event-stats" element={<EventStats />} />
         <Route path="/" element={<Navigate to="/login" replace />} />
       </Routes>
     </>
