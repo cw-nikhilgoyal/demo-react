@@ -94,7 +94,7 @@ const EventDetails = () => {
         {/* Right: Map */}
         <Box sx={{ flex: '1' }}>
           <Card variant="outlined">
-            <LoadScript googleMapsApiKey="AIzaSyA4Y-mhumoFkAnzOUuaDcV6gB-cIevQbv4">
+            <LoadScript googleMapsApiKey="">
               <GoogleMap
                 mapContainerStyle={mapContainerStyle}
                 center={defaultCenter}
